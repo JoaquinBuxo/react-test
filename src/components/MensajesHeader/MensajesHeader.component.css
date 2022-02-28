@@ -1,0 +1,38 @@
+.MensajesHeader {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+}
+
+.Vaciar {
+    background-color: #f44336;
+}
+
+.Vaciar:hover {
+    background-color: #ce392f;
+}
+.Nuevo {
+    background-color: #469553;
+}
+
+.Nuevo:hover {
+    background-color: #336e3d;
+}
+
+.Vaciar, .Nuevo {
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+
+    color: #EAEAE9;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+}

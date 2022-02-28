@@ -1,0 +1,53 @@
+.MensajesTable {
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 32px;
+}
+
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Header {
+    background-color: #dddddd;
+}
+
+.Borrar {
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px;
+
+    color: #EAEAE9;
+}
+
+.Borrar {
+    background-color: #f44336;
+}
+
+.Borrar:hover {
+    background-color: #ce392f;
+}
+
+	
+.Leido {
+    background-color: #d69732;
+}
+ 
+.Leido:hover {
+    background-color: #b8822b;
+}
+ 
+.ElementoLeido {
+    background-color: #92e6ff;
+}
+ 
+.ElementoNOLeido {
+    background-color: #ffffff;
+}
